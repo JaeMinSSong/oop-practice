@@ -6,4 +6,4 @@ public class CorrectPasswordGenerator implements PasswordGeneratePolicy {
         return "aaaabbbbcc";
     }
 }
-// 프로덕션 코드의 패키
+// 프로덕션 코드의 패키지와 테스트 코드의 패키지를 맞춰주는게 좋다
