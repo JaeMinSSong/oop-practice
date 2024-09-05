@@ -8,7 +8,7 @@ public class PasswordValidator {
     public void validate(String password) {
         int length = password.length();
 
-        if (length < 8 || length > 12) {
+        if (length < 8 || length > 12) { //ctrl+alt+p로 지역변수로 빼서 리팩토링 가능
             throw new IllegalArgumentException("비밀번호는 최소 8자 이상 12자 이하여야 한다.");
         }
     }

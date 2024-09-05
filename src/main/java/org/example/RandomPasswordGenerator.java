@@ -1,9 +1,11 @@
 package org.example;
 
+import org.passay.CharacterData;
 import org.passay.CharacterRule;
 import org.passay.EnglishCharacterData;
 import org.passay.PasswordGenerator;
 
+//테스트 하기 쉬운 코드를 작성하다 보면 더 낮은 결합도를 가진 설계를 얻을 수 있음(passay)
 public class RandomPasswordGenerator implements PasswordGeneratePolicy {
     /**
      * Special characters allowed in password.

@@ -1,4 +1,4 @@
-import org.example.PasswordGeneratePolicy;
+package org.example;
 
 public class WrongPasswordGenerator implements PasswordGeneratePolicy {
     @Override

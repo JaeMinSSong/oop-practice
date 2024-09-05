@@ -1,3 +1,5 @@
+package org.example;
+
 import org.example.grade.domain.Course;
 import org.example.grade.domain.Courses;
 import org.example.grade.domain.GradeCalculator;

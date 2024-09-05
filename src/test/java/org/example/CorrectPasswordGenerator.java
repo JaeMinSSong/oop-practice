@@ -1,4 +1,4 @@
-import org.example.PasswordGeneratePolicy;
+package org.example;
 
 public class CorrectPasswordGenerator implements PasswordGeneratePolicy {
     @Override
@@ -6,3 +6,4 @@ public class CorrectPasswordGenerator implements PasswordGeneratePolicy {
         return "aaaabbbbcc";
     }
 }
+// 프로덕션 코드의 패키
