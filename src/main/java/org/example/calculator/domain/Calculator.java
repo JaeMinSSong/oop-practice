@@ -1,7 +1,6 @@
 package org.example.calculator.domain;
 
 
-
 import org.example.calculator.tobe.AdditionOperator;
 import org.example.calculator.tobe.ArithmeticOperator;
 import org.example.calculator.tobe.DivisionOperator;
@@ -17,5 +16,20 @@ public class Calculator {
                 .map(arithmeticOperator -> arithmeticOperator.calculate(num1, num2))
                 .findFirst()
                 .orElseThrow(() -> new IllegalArgumentException("올바른 사칙연산이 아닙니다."));
+    }
+
+    public static int calculate(int operand1, String operator, int operand2) {
+//        if("+".equals(operator)) {
+//            return operand1 + operand2;
+//        }else if("-".equals(operator)) {
+//            return operand1 - operand2;
+//        }else if("*".equals(operator)) {
+//            return operand1 * operand2;
+//        }else if("/".equals(operator)) {
+//            return operand1 / operand2;
+//        }
+//        return 0;
+//    }
+        return org.example.calculator.domain.ArithmeticOperator.calculate(operand1,operator,operand2);
     }
 }
