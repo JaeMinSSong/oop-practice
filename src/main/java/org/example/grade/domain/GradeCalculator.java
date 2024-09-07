@@ -16,6 +16,5 @@ public class GradeCalculator {
         double averageGrade = totalMultipliedCreditAndCourseGrade / totalCompletedCredit;
 
         return new GradeResult(averageGrade, totalCompletedCredit);
-
     }
 }
