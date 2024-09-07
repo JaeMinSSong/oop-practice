@@ -1,6 +1,4 @@
-package org.example;
-
-import java.util.Random;
+package org.example.password;
 
 public class User {                     //alt + ins로 test선택
     private String password;

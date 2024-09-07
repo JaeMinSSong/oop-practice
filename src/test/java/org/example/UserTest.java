@@ -1,11 +1,10 @@
 package org.example;
 
+import org.example.password.User;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import org.passay.PasswordGenerator;
 
 import static org.assertj.core.api.Assertions.assertThat;
-import static org.junit.jupiter.api.Assertions.*;
 
 class UserTest {
     //alt+ins 에서 Test Method : 이 경우는 프로덕션 먼저 만든 후 테스트 코드 작성
